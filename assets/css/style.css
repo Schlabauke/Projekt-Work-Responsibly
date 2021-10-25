@@ -1,0 +1,166 @@
+/* font-family: 'Roboto', sans-serif;
+farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+
+navigation: Work Responsibly/About/Suggest a link
+Work Responsibly / — A collection of resources for a healthy and balanced approach to work.
+Browse topics and resources
+What's your struggle
+Stress, Sleep, Focus, Anxiety, Confidence, Motivation ....
+Features ressources
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* ################### General Styles ############################## */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #eee;
+}
+
+header {
+    border-bottom: 2px solid #ccc;
+}
+
+main section {
+    border-bottom: 2px solid #ccc;
+}
+
+/* ##################### Header Styles ############################ */
+
+header ul {
+    list-style: none;
+    margin: 3vh 0 15vh 5vw;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 2% 0 2% 5%;
+    font-size: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #659d89;
+}
+
+/* ############### Header Section Styles ##########################*/
+
+header section {
+    margin: 3vh 0 5vh 10vw;
+}
+
+header section h1 {
+    color: #659d89;
+    font-size: 80px;
+    font-weight: normal;
+    margin-bottom: 1%;
+}
+
+header section p {
+    font-size: 70px;
+    width: 55vw;
+    margin-bottom: 2%;
+}
+
+header section p:nth-of-type(2) {
+    font-size: 30px;
+}
+
+header section ul {
+    list-style: none;
+    margin: 3vh 0 0 5vw;
+}
+
+header section ul li {
+    display: block;
+    padding: 1%;
+    text-align: right;
+    margin-right: 4vw;
+}
+
+header section ul li img {
+    width: 2vw;
+}
+
+/* ##################### Main Section Styles ####################### */
+
+main section:nth-of-type(1) {
+    margin: 3vh 0 15vh 0;
+    font-size: 40px;
+    padding: 1%;
+}
+
+main section:nth-of-type(1) h2 {
+    margin-left: 9vw;
+}
+
+main section:nth-of-type(1) p {
+    font-size: 30px;
+    padding: 1%;
+    margin-left: 9vw;
+}
+
+main section div {
+    margin: 5vh auto;
+    text-align: center;
+}
+
+main section div img:hover {
+    box-shadow: 1px 2px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ########### Section 2 ############################ */
+
+main section:nth-of-type(2) h2 {
+    margin-left: 9vw;
+    font-size: 35px;
+}
+
+main section:nth-of-type(2) p {
+    padding: 1%;
+}
+
+main section:nth-of-type(2) a {
+    text-decoration: none;
+    color: black;
+}
+
+main section:nth-of-type(2) p:nth-of-type(1) {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main section:nth-of-type(2) img {
+    width: 35vw;
+    height: 35vh;
+}
+
+main section:nth-of-type(2) div:nth-of-type(odd) {
+    margin-right: 25vw;
+    padding: 1%;
+}
+
+main section:nth-of-type(2) div:nth-of-type(even) {
+    margin-left: 35vw;
+}
+
+/* ########### Footer Styles ######################## */
+
+footer {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+footer p:nth-of-type(1) {
+    font-size: 30px;
+    padding: 1%;
+    margin: 3%;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
